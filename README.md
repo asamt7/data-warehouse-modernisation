@@ -1,4 +1,4 @@
-# Data Warehouse Modernisation — BA Case Study
+# Data Warehouse Modernisation
 
 > **Portfolio case study** | Sanitised for public sharing. Client and company names have been anonymised.
 
@@ -19,15 +19,15 @@
 
 ## Problem Statement
 
-A leading trade association representing 200+ major retailers had built their entire insight and reporting capability on Excel. Their team managed multiple data monitors — covering retail sales, footfall, pricing, and economic data — all through manual spreadsheet workflows stored on a shared cloud drive.
+A leading trade association representing 200+ major retailers had built their entire insight and reporting capability on Excel. Their team managed multiple data monitors - covering retail sales, footfall, pricing, and economic data - all through manual spreadsheet workflows stored on a shared cloud drive.
 
 **Core pain points identified during discovery:**
 
-- **Data fragmentation** — each monitor lived in a separate Excel file; cross-monitor analysis was nearly impossible
-- **Data integrity risk** — no version control or change tracking; data could be modified or deleted without detection
-- **Reporting bottlenecks** — generating reports required hours of manual formatting across multiple files
-- **Scalability barrier** — the organisation wanted to grow its insight offer (custom reports, member-facing data access, proprietary indices) but the Excel infrastructure couldn't support it
-- **No dedicated IT function** — the organisation relied on external consultants for any technical changes
+- **Data fragmentation** - each monitor lived in a separate Excel file; cross-monitor analysis was nearly impossible
+- **Data integrity risk** - no version control or change tracking; data could be modified or deleted without detection
+- **Reporting bottlenecks** - generating reports required hours of manual formatting across multiple files
+- **Scalability barrier** - the organisation wanted to grow its insight offer (custom reports, member-facing data access, proprietary indices) but the Excel infrastructure couldn't support it
+- **No dedicated IT function** - the organisation relied on external consultants for any technical changes
 
 The client needed to migrate from a fragmented, Excel-based data estate to a centralised, cloud-based Data Warehouse — without disrupting ongoing monthly reporting cycles.
 
