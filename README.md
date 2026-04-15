@@ -79,7 +79,7 @@ As the Lead Business Analyst and Scrum Master, I was responsible for the full BA
 ## Solution Architecture (High-Level)
 
 ```
-azure_data_warehouse_architecture.svg
+![Solution Overview](./azure_data_warehouse_architecture.svg)
 ```
 
 ---
