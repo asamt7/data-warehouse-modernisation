@@ -1,10 +1,10 @@
-# 🏗️ Data Warehouse Modernisation — BA Case Study
+# Data Warehouse Modernisation — BA Case Study
 
 > **Portfolio case study** | Sanitised for public sharing. Client and company names have been anonymised.
 
 ---
 
-## 📋 Project Summary
+## Project Summary
 
 | | |
 |---|---|
@@ -12,12 +12,12 @@
 | **Duration** | 7 months (Discovery → Deployment) |
 | **Domain** | Retail Trade Association / Data & Insight |
 | **Tech Stack** | Azure Data Factory, Azure Data Lake, Power BI, Azure Logic Apps |
-| **Methodology** | Agile (Scrum) — 14 Sprints |
-| **Status** | ✅ Live in Production |
+| **Methodology** | Agile (Scrum) - 14 Sprints |
+| **Status** | Live in Production |
 
 ---
 
-## 🧭 Problem Statement
+## Problem Statement
 
 A leading trade association representing 200+ major retailers had built their entire insight and reporting capability on Excel. Their team managed multiple data monitors — covering retail sales, footfall, pricing, and economic data — all through manual spreadsheet workflows stored on a shared cloud drive.
 
@@ -33,7 +33,7 @@ The client needed to migrate from a fragmented, Excel-based data estate to a cen
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. Replace manual, Excel-based data processes with an automated, centralised Data Warehouse
 2. Enable cross-monitor analysis through a unified data model
@@ -44,7 +44,7 @@ The client needed to migrate from a fragmented, Excel-based data estate to a cen
 
 ---
 
-## 🗂️ My Role & Deliverables
+## My Role & Deliverables
 
 As the Lead Business Analyst and Scrum Master, I was responsible for the full BA lifecycle and Agile delivery governance across 14 sprints:
 
@@ -62,7 +62,7 @@ As the Lead Business Analyst and Scrum Master, I was responsible for the full BA
 
 ---
 
-## 📊 Data Monitors Delivered
+## Data Monitors Delivered
 
 | # | Monitor | Data Source | Delivery Sprint |
 |---|---|---|---|
@@ -76,48 +76,29 @@ As the Lead Business Analyst and Scrum Master, I was responsible for the full BA
 
 ---
 
-## 🔄 Solution Architecture (High-Level)
+## Solution Architecture (High-Level)
 
 ```
-[ External Data Providers / Member Data / Internal Excel Files ]
-                        ↓
-              [ Azure Data Factory — ELT Pipelines ]
-                        ↓
-           ┌─────────────────────────────┐
-           │      Azure Data Lake        │
-           │  ┌──────────────────────┐   │
-           │  │   Raw Layer          │   │  ← Ingested as-is
-           │  ├──────────────────────┤   │
-           │  │   Curated Layer      │   │  ← Transformed, validated
-           │  ├──────────────────────┤   │
-           │  │   Semantic Layer     │   │  ← Business-ready, KPI-enriched
-           │  └──────────────────────┘   │
-           └─────────────────────────────┘
-                        ↓
-              [ Azure Logic Apps — Orchestration ]
-                        ↓
-              [ Power BI — Self-Service Dashboards ]
-                        ↓
-            [ Insight Team / Stakeholders / Members ]
+azure_data_warehouse_architecture.svg
 ```
 
 ---
 
-## 🔧 Data Modelling Approach
+## Data Modelling Approach
 
 For each monitor, the following modelling artefacts were produced:
 
 | Artefact | Purpose |
 |---|---|
-| **Conceptual Data Model** | Entities and relationships — business-level understanding |
-| **Logical Data Model** | Entities, attributes, and relationships — technology-agnostic |
-| **Physical Data Model** | Column names, data types, referential integrity — implementation-ready |
+| **Conceptual Data Model** | Entities and relationships - business-level understanding |
+| **Logical Data Model** | Entities, attributes, and relationships - technology-agnostic |
+| **Physical Data Model** | Column names, data types, referential integrity - implementation-ready |
 | **Source-to-Target Mapping (SMX)** | Column-level transformation logic from source to curated layer |
 | **Pre-Processor Mapping** | Identifies tables that can be combined; raw-to-fact structure guide |
 
 ---
 
-## 📋 Activity Breakdown (Sample — Footfall Monitor)
+## Activity Breakdown (Sample — Footfall Monitor)
 
 | Area | Task | Description |
 |---|---|---|
@@ -139,7 +120,7 @@ Full breakdown available in [`/docs/activity-breakdown.md`](docs/activity-breakd
 
 ---
 
-## 📈 Key Outcomes
+## Key Outcomes
 
 | Metric | Result |
 |---|---|
@@ -147,12 +128,12 @@ Full breakdown available in [`/docs/activity-breakdown.md`](docs/activity-breakd
 | Monitors delivered | **7** |
 | Sprints completed on time | **13 / 14** |
 | Stakeholder engagement score (post-launch) | **+20%** |
-| Executive paper approved | ✅ Budget secured for full build |
-| Manual Excel workflows replaced | ✅ All 7 monitors |
+| Executive paper approved | Budget secured for full build |
+| Manual Excel workflows replaced | All 7 monitors |
 
 ---
 
-## 🏛️ Governance & Risk Management
+## Governance & Risk Management
 
 Key risks identified and mitigated:
 
@@ -166,7 +147,7 @@ Key risks identified and mitigated:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── README.md                          ← You are here
@@ -183,12 +164,12 @@ Key risks identified and mitigated:
 
 ---
 
-## 🛠️ Tools & Skills Demonstrated
+## Tools & Skills Demonstrated
 
 `Business Analysis` · `Data Warehousing` · `Azure (Data Factory, Data Lake, Logic Apps)` · `Power BI` · `BPMN Process Mapping` · `Data Modelling (Conceptual / Logical / Physical)` · `ETL Design` · `SOW & SDD Authoring` · `Stakeholder Workshops` · `Scrum Master` · `Jira` · `Agile Delivery` · `Risk Management` · `UAT Planning`
 
 ---
 
-## 📄 Disclaimer
+## Disclaimer
 
 See [`/docs/disclaimer.md`](docs/disclaimer.md) for full details. All client and company names have been anonymised. Documents are shared with permission for portfolio purposes only.
