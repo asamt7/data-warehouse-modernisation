@@ -1,7 +1,4 @@
 # Data Warehouse Modernisation
-
-> **Portfolio case study** | Sanitised for public sharing. Client and company names have been anonymised.
-
 ---
 
 ## Project Summary
@@ -72,7 +69,7 @@ As the Lead Business Analyst and Scrum Master, I was responsible for the full BA
 | 1 | Retail Sales Monitor | External research partner | Sprint 3–6 |
 | 2 | Regional Retail Sales Monitor | External research partner | Sprint 4–7 |
 | 4 | Economic Monitor | Internal + external | Sprint 5–8 |
-| — | Project Handover & Overall Testing | — | Sprint 13–14 |
+| - | Project Handover & Overall Testing | - | Sprint 13–14 |
 
 ---
 
