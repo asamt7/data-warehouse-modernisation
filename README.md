@@ -26,7 +26,7 @@ A leading trade association representing 200+ major retailers had built their en
 - **Scalability barrier** - the organisation wanted to grow its insight offer (custom reports, member-facing data access, proprietary indices) but the Excel infrastructure couldn't support it
 - **No dedicated IT function** - the organisation relied on external consultants for any technical changes
 
-The client needed to migrate from a fragmented, Excel-based data estate to a centralised, cloud-based Data Warehouse — without disrupting ongoing monthly reporting cycles.
+The client needed to migrate from a fragmented, Excel-based data estate to a centralised, cloud-based Data Warehouse - without disrupting ongoing monthly reporting cycles.
 
 ---
 
@@ -63,13 +63,13 @@ As the Lead Business Analyst and Scrum Master, I was responsible for the full BA
 
 | # | Monitor | Data Source | Delivery Sprint |
 |---|---|---|---|
-| 0 | Planning, Infrastructure & Documentation | Internal | Sprint 1–2 |
-| 7 | Footfall Monitor | Third-party footfall provider | Sprint 1–2 |
-| 3 | Shop Price Index | Third-party pricing provider | Sprint 2–4 |
-| 1 | Retail Sales Monitor | External research partner | Sprint 3–6 |
-| 2 | Regional Retail Sales Monitor | External research partner | Sprint 4–7 |
-| 4 | Economic Monitor | Internal + external | Sprint 5–8 |
-| - | Project Handover & Overall Testing | - | Sprint 13–14 |
+| 0 | Planning, Infrastructure & Documentation | Internal | Sprint 1-2 |
+| 7 | Footfall Monitor | Third-party footfall provider | Sprint 1-2 |
+| 3 | Shop Price Index | Third-party pricing provider | Sprint 2-4 |
+| 1 | Retail Sales Monitor | External research partner | Sprint 3-6 |
+| 2 | Regional Retail Sales Monitor | External research partner | Sprint 4-7 |
+| 4 | Economic Monitor | Internal + external | Sprint 5-8 |
+| - | Project Handover & Overall Testing | - | Sprint 13-14 |
 
 ---
 
@@ -155,8 +155,6 @@ Key risks identified and mitigated:
 │   ├── bpmn-to-be-process.png         ← Future state automated pipeline
 │   └── solution-architecture.png      ← High-level Azure architecture
 ```
-
----
 
 ## Tools & Skills Demonstrated
 
